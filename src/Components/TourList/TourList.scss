@@ -1,0 +1,25 @@
+.tour-list {
+  width: 70vw;
+  margin: 0 auto;
+  padding: 2rem;  
+}
+.no-toures {
+    text-align: center;
+}
+@media (min-width: 700px) {
+  .tour-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem; gap: 1.5rem;
+  }
+}
+@media (min-width: 900px) {
+  .tour-list {
+    width: 85vw;
+  }
+}
+@media (min-width: 1100px) {
+  .tour-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

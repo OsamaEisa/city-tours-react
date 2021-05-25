@@ -1,0 +1,11 @@
+@import '../../index.scss';
+
+.posts {
+  background-color: #ddd;
+  text-align: center;
+  padding: 0.5rem;
+  margin: 1rem;
+  h1 {
+    color: $mainGreen;
+  }
+}
